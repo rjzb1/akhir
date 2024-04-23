@@ -12,7 +12,7 @@ if (isset($_GET['logout'])) {
 }
 
 function user_logout() {
-    setcookie("user_log", "", time() - 3600, "/");
+    setcookie("user_log", "", time() - 3600);
     header("Location: index.php");
     exit();
 }

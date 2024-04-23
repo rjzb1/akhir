@@ -1,6 +1,8 @@
 <?php
 
-$conn = mysqli_connect("localhost", "root", "", "gold_db");
+
+// $conn = mysqli_connect("localhost", "root", "", "gold_db");
+$conn = mysqli_connect("localhost", "mysql", "mysql", "gold_db");
 
 
 function query($query) {
@@ -14,7 +16,7 @@ function query($query) {
 }
 
 function tambah($data) {
-
+	global $conn;
 	
 	$foto = $data["foto_guru"];
 	$teks = $data["teks_guru"];
@@ -28,4 +30,4 @@ function tambah($data) {
 
 }
 
-?>
+?>;
