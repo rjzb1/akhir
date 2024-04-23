@@ -1,0 +1,19 @@
+.img-circle-wrapper {
+    padding: 0;
+}
+
+
+
+.img-circle {
+    border-radius: 50%;
+}
+
+
+.img-garis {
+  display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    align-items: center;
+    justify-items: center;
+}
+

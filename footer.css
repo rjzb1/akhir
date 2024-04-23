@@ -1,0 +1,9 @@
+.bawah {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: #74CBEB;
+	border-radius: 0px;
+	padding: 15px 138px;
+}
